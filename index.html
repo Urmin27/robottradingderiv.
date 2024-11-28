@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="mg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROBOT INTELLIGENT MIASA HO ANAO</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003366;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            color: #ffffff;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            background-color: #1e1e1e;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #00b3b3;
+        }
+        .button {
+            background-color: #0059b3;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #003366;
+        }
+        textarea, input[type="text"], input[type="file"], input[type="email"] {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Varotra Robot Deriv</h1>
+</header>
+
+<div class="container">
+
+    <!-- Existing content: Home Section -->
+    <div class="section">
+        <h2>Lisitry ny Robot Deriv</h2>
+        <button class="button" onclick="showPaymentOptions(1)">HIVIDY Robot Niveau 1 - 5000 Ar</button><br><br>
+        <button class="button" onclick="showPaymentOptions(2)">HIVIDY Robot Niveau 2 - 10,000 Ar</button><br><br>
+        <button class="button" onclick="showPaymentOptions(3)">HIVIDY Robot Niveau 3 - 20,000 Ar</button><br><br>
+    </div>
+
+    <div id="payment-options" class="section" style="display:none;">
+        <h2>Safidio ny Moyen de Paiement</h2>
+        <button class="button" onclick="showMobileMoney()">Mobile Money</button><br><br>
+        <button class="button" onclick="showPayeer()">Payeer</button><br><br>
+    </div>
+
+    <div id="mobile-money" class="section" style="display:none;">
+        <h2>Fandoavana amin'ny Mobile Money</h2>
+        <ul>
+            <li>0323911654</li>
+            <li>0333635111</li>
+            <li>0384557584</li>
+        </ul>
+    </div>
+
+    <div id="payeer" class="section" style="display:none;">
+        <h2>Fandoavana amin'ny Payeer</h2>
+        <p>Compte Payeer: P1114188343</p>
+    </div>
+ <!-- Section: Proof of Payment -->
+    <div class="section">
+        <h2>Proof of Payment</h2>
+        <p>Rehefa lasa ny vola dia alefaso eto ambany ny preuve du paiment,ary raha maharitra 15minitra tsy misy mamaly hianao dia manasa anao izahay hifandray aminay ao amin'ny whatsapp. eo amin'NY CONTACTE eo ambany no idirana raha manana olona :</p>
+        <form>
+            <input type="file" name="proof" required>
+            <button class="button" type="submit">Envoyer</button>
+        </form>
+    </div>
+
+    <!-- Section: Information about the Robot -->
+    <div class="section">
+        <h2>About the Deriv Robot</h2>
+        <p>
+            Ny *
+   *Deriv Robot** dia fitaovana manampy anao amin'ny varotra automatique amin'ny sehatra Deriv. Tombony lehibe amin'ny fampiasana ny robot:
+        </p>
+        <ul>
+            <li>Manampy anao hanatsara ny fahazoam-bola amin'ny alalan'ny algorithm mahomby.</li>
+            <li>Mitsitsy fotoana, satria mandeha ho azy ny varotra.</li>
+            <li>Miaraka amin'ny safidy maromaro, misy ny robot mety ho anao na inona na inona ny fahafahanao ara-bola.</li>
+        </ul>
+    </div>
+
+    <!-- Section: Contact Us -->
+    <div class="section">
+        <h2>Contact Us</h2>
+        <p>Afaka mandefa hafatra mivantana aminay eto:</p>
+        <form>
+            <input type="text" name="name" placeholder="Anaranao" required>
+            <input type="email" name="email" placeholder="Adiresy Email" required>
+            <textarea name="message" placeholder="Hafatra" rows="5" required></textarea>
+            <button class="button" type="submit">Envoyer</button>
+        </form>
+    </div>
+
+    <!-- Section: information  -->
+    <div class="section">
+        <h2>MAKASIKA NY ROBOT </h2><br>
+
+        <p>Bot trading dia rindrambaiko mandeha ho azy izay natao hanampy mpampiasa amin'ny fanaovana varotra (trading) amin'ny tsena ara-bola na crypto. Izy io dia mamakafaka ny angona amin'ny fotoana tena izy, miasa mifototra amin'ny algorithme napetraka, ary manao varotra araka ny fepetra na ny fivoaran'ny tsena.
+
+            <h3>Tombony lehibe amin'ny bot trading</h3><br>
+
+            1.  Haingam-pandeha: Manatanteraka varotra ao anatin'ny segondra na milisegondra vitsy, izay mety hanomezana tombony rehefa miova haingana ny tsena.<br>
+            2.  Fanafoanana ny fihetseham-po: Tsy voatosiky ny tahotra na ny fitakiana ny bot, ka manatanteraka varotra araka ny fepetra napetraka.<br>
+            3.  Fahombiazan'ny fotoana: Mamela anao hihazona varotra 24/7, na dia tsy eo aza ianao.<br>
+            4.  Fanadihadiana lalina: Mamaky modely sarotra na angon-drakitra lehibe amin'ny fotoana tena izy.<br>
+            5.  Fanamboarana mora: Azonao atao ny mametraka fitsipika na algorithme mifanaraka amin'ny fomba varotrao.<br>
+            <br>
+            
+              <h3  Karazana bots trading></h3><br>
+            
+            1. Market-Making Bots:<br>
+               - Mametraka baikon'ny fividianana sy fivarotana eo akaikin'ny vidin'ny tsena ankehitriny mba hanararaotra ny fiovaovan'ny vidiny madinidinika.<br>
+            
+            2.    Arbitrage Bots:<br>
+               - Mitady fahasamihafana amin'ny vidin'ny crypto na fananana ara-bola eo amin'ny tsena samihafa, ary manararaotra izany.
+  <br>          
+            3. Trend-Following Bots:<br>
+               - Mifototra amin'ny famakafakana ny fironana (trend) amin'ny tsena mba hanatanteraka varotra mifanaraka amin'ny fihetsika mivoatra.
+            <br>
+            4.  Scalping Bots:<br>
+               - Mikendry tombony kely amin'ny varotra maro atao ao anatin'ny fotoana fohy, matetika eo ambany segondra na minitra.
+            <br>
+            5.  Custom Bots:<br>
+               - Bots natao manokana araka ny filàn'ny mpampiasa, miaraka amin'ny algorithme manokana.
+            <br>
+            
+            
+           <h3 Ny fomba fiasan'ny bot trading></h3><br>
+
+            1.  Fanangonana angon-drakitra (Data Collection):<br>
+               - Maka angon-drakitra momba ny tsena mivantana ny bot (toy ny vidin'ny crypto, ny volume, ny fironana, sns).
+            <br>
+            2.  Famakafakana (Analysis):<br>
+               - Mampiasa ny angon-drakitra ho an'ny fanadihadiana teknika sy ny famaritana ny fotoana mety hanaovana varotra.
+            <br>
+            3. Fandraisana fanapahan-kevitra (Decision Making):<br>
+               - Raha mahafeno fepetra ny tsena dia manatanteraka varotra mifototra amin'ny algorithme napetraka.
+            <br>
+            4.  Fanatanterahana (Execution):<br>
+               - Manatanteraka ny baiko eny amin'ny tsena mivantana (ohatra: fividianana na fivarotana crypto).
+            <br>
+        
+            
+            <h3>fahaiza-manao sy fitaovana ilaina amin'ny fampiasana bot trading</h3> <br>
+
+            1.  Fahaizana momba ny varotra (Trading Knowledge):<br>
+               - Ny fahatakarana ny tsena dia ilaina na dia ho an'ny bot aza mba hametrahana tsara ny fitsipika.
+            <br>
+            2. Famolavolana Algorithme:<br>
+               - Raha mamorona bot anao manokana ianao, dia mila fahalalana amin'ny fandaharana, toy ny Python na JavaScript.
+            <br>
+            3. Fitaovana matanjaka:<br>
+               - Bots sasany mila fifandraisana matanjaka amin'ny Internet sy solosaina mahery.</p>
+
+</div>
+
+
+<script>
+    function showPaymentOptions(robotLevel) {
+        document.getElementById('payment-options').style.display = 'block';
+    }
+    function showMobileMoney() {
+        document.getElementById('mobile-money').style.display = 'block';
+        document.getElementById('payeer').style.display = 'none';
+    }
+    function showPayeer() {
+        document.getElementById('mobile-money').style.display = 'none';
+        document.getElementById('payeer').style.display = 'block';
+    }
+</script>
+
+</body>
+</html>
